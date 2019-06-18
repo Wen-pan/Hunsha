@@ -1,0 +1,322 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.headr {
+	float: right;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+
+.headr-b {
+	display: none;
+}
+
+.headr .headr-main {
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.headr .logo {
+	margin-top: 20px;
+	z-index: 9999999999;
+}
+
+.headr .nav {
+	float: right;
+	height: 100%;
+	margin-right: 80px;
+}
+
+.headr .nav .slide {
+	float: left;
+	margin-left: 80px;
+}
+
+.headr .nav .slide a {
+	display: block;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	line-height: 80px;
+	color: #666666;
+}
+
+.headr .nav .slide:hover a {
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.headr .nav .slide.active a {
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.banner-img {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.message {
+	width: 150px;
+	margin: 20px auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+.message-title {
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.message-title2 {
+	font-size: 16px;
+	color: #c1c1c1;
+}
+
+.contenir {
+	margin-top: 100px;
+	width: 100%;
+}
+
+.contenir-c {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.contenir-c .contenir-c-m {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.brief {
+	width: 300px;
+	/* height: 600px; */
+	text-align: center;
+	line-height: 26px;
+	cursor: pointer;
+}
+
+.brief .brief-words1 {
+	font-size: 18px;
+}
+
+.brief .brief-words2,
+.brief-words3 {
+	font-size: 14px;
+	color: #a4a4a4;
+}
+
+.brief .brief-words2 {
+	margin-top: 20px;
+}
+
+.brief-words3 {
+	margin-top: 40px;
+}
+
+.brief .more {
+	margin-top: 30px;
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #b9ab77;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+.more .more-btn {
+	opacity: 0;
+	width: 150px;
+	height: 45px;
+	margin: 0 auto;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 30px;
+	cursor: pointer;
+	border: 1px dashed #c1c1c1;
+}
+
+.brief:hover .more-btn {
+	animation-name: movie;
+	animation-duration: 1.5s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes movie {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #4d4d4d;
+	color: white;
+}
+
+.footer-c {
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footer-1 {
+	float: left;
+	font-size: 12px;
+	font-weight: bolder;
+	margin-top: 40px;
+}
+
+.footer-2 {
+	position: absolute;
+	top: 50px;
+	right: 0;
+
+}
+
+.footer-2 li {
+	float: left;
+	font-size: 12px;
+	font-weight: bolder;
+	margin-left: 80px;
+}
+
+.footer-2 li a {
+	color: white;
+}
+
+.yourElement {
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+.contacts {
+	position: relative;
+	position: fixed;
+	top: 32%;
+	right: 0;
+	width: 120px;
+	height: 184px;
+	background-color: white;
+	font-size: 12px;
+	z-index: 9999999999;
+	cursor: pointer;
+	display: none;
+}
+
+.zixun {
+	font-size: 16px;
+}
+
+.sign {
+	margin-top: 10px;
+}
+
+.sheji {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 15px;
+}
+
+.blog {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	z-index: 999999;
+}
+
+.zx {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+}
+
+.sheji {
+	margin-left: 40px;
+	margin-top: 20px;
+	font-style: normal
+}
+
+.sign {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wx,
+.up {
+	width: 50px;
+	height: 50px;
+	background-color: #666666;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 10px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, .1)
+}
+
+.wx {
+	display: block;
+}
+
+.up {
+	line-height: 50px;
+}

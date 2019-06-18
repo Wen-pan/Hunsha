@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.headr {
+    float: right;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.headr-b {
+    display: none;
+}
+
+.headr .headr-main {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.headr img {
+    margin-top: 20px;
+}
+
+.headr .nav {
+    float: right;
+    height: 100%;
+    margin-right: 80px;
+}
+
+.headr .nav .slide {
+    float: left;
+    margin-left: 80px;
+}
+
+.headr .nav .slide a {
+    display: block;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 80px;
+    color: #666666;
+}
+
+.headr .nav .slide:hover a {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.headr .nav .slide.active a {
+    color: black;
+    border-bottom: 2px solid black;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.contnier{
+    margin-top:100px;
+}
+.contnier-c{
+    width: 1200px;
+    margin:0 auto;
+}
+.message {
+	width: 150px;
+	margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.message-title {
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.message-title2 {
+	font-size: 16px;
+	color: #c1c1c1;
+}
+.brief{
+    position: relative;
+    width: 100%;
+    margin-top:80px;
+}
+.brief-words{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 574px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    color: #6b6b6b;
+    text-indent:35px;
+    line-height:22px;
+    background-image: -webkit-linear-gradient(left, #A4D3EE, #6b6b6b 25%, #A4D3EE 50%, #6b6b6b 75%, #A4D3EE);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-size: 200% 100%;
+	-webkit-background-clip: text;
+	animation: mover 1.5s infinite linear;
+}
+@keyframes mover{
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: -100% 0;
+	}
+}
+.brief-words-2{
+    margin-top: 30px;
+    letter-spacing: 3px;
+    background-image: -webkit-linear-gradient(left, #A4D3EE, #6b6b6b 25%, #A4D3EE 50%, #6b6b6b 75%, #A4D3EE);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-size: 200% 100%;
+	-webkit-background-clip: text;
+	animation: mover 1.5s infinite linear;
+}
+.contnier2{
+    margin-top: 162px;
+    width:100%;
+}
+.contnier2-c{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner-img{
+    width: 100%;
+    margin-top:80px;
+}
+.brief-img{
+    position: relative;
+    width: 422px;
+    height: 314px;
+    cursor: pointer;
+}
+.brief-show{
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background:rgba(0,0,0,.3);
+    text-align: center;
+    line-height:314px;
+    font-size: 30px;
+    
+}
+.contnier2-c h1{
+    font-size: 26px;
+    margin-top: 35px;
+}
+.words{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing:2px;
+    color: #616060;
+}
+.banner-img-2{
+    margin-top: 40px;
+}
+.contact{
+    position: absolute;
+    bottom: 0;
+    right: 430px;
+    line-height:27px;
+    font-weight: bold;
+    color: #616060;
+}
+.footer {
+    margin-top:60px;
+	width: 100%;
+	height: 100px;
+    background-color:#4d4d4d;
+    color: white;
+}
+
+.footer-c {
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footer-1{
+	float: left;
+	font-size: 12px;
+	font-weight: bolder;
+	margin-top: 40px;
+}
+
+.footer-2 {
+	position: absolute;
+	top: 50px;
+	right: 0;
+    
+}
+.footer-2 li{
+	float: left;
+	font-size: 12px;
+	font-weight: bolder;
+	margin-left:80px;
+}
+.footer-2 li a{
+    color: white;
+}
+.contacts {
+	position: relative;
+	position: fixed;
+	top: 32%;
+	right: 0;
+	width: 120px;
+	height: 184px;
+	background-color: white;
+	font-size: 12px;
+	z-index: 9999999999;
+	cursor: pointer;
+	display: none;
+}
+
+.zixun {
+	font-size: 16px;
+}
+
+.sign {
+	margin-top: 10px;
+}
+
+.sheji {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 15px;
+}
+
+.blog {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	z-index: 999999;
+}
+
+.zx {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+}
+
+.sheji {
+	margin-left: 40px;
+	margin-top: 20px;
+	font-style: normal
+}
+
+.sign {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wx,
+.up {
+	width: 50px;
+	height: 50px;
+	background-color: #666666;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 10px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, .3)
+}
+
+.wx {
+	display: block;
+}
+
+.up {
+	line-height: 50px;
+}
